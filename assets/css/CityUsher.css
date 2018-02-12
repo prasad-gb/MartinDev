@@ -1,62 +1,76 @@
-body{
+body {
     color: #333;
     overflow-x: hidden;
 }
-/* section 1 stars here */
 
-.topBanner{
-    background: url('../images/cityUsher/topBanner.png') 0 0; 
+/* section 1 stars here */
+.topBanner .navbar {
+        margin: 0 -15px;
+        background-color: #e9044a;
+        position: absolute;
+        width: 100%;
+        box-shadow: none;
 }
-.topBanner .container{
+.topBanner {
+    background: url('../images/cityUsher/topBanner.png') 0 0;
+}
+
+.topBanner .container {
     min-height: 791px;
     color: #fff;
     font-family: 'GlacialIndifference-Regular';
     text-align: center;
     letter-spacing: 1px;
 }
-.topBanner .container h1{
+
+.topBanner .container h1 {
     font-family: 'GlacialIndifference-Bold';
     font-size: 75px;
     padding-top: 160px;
     margin-bottom: 15px;
 }
-.topBanner .container h5{
+
+.topBanner .container h5 {
     font-size: 24px;
     line-height: 34px;
 }
-.topBanner .container ul{
+
+.topBanner .container ul {
     width: max-content;
     margin: 0 auto;
     margin-top: 60px;
 }
-.topBanner .container ul li{
+
+.topBanner .container ul li {
     float: left;
     list-style: none;
     padding-left: 0;
     font-size: 20px;
 }
-.topBanner .container ul li a{
-    color: #67022e; 
+
+.topBanner .container ul li a {
+    color: #67022e;
     text-decoration: none;
 }
-.topBanner .container ul li.seperator{
+
+.topBanner .container ul li.seperator {
     margin: 0 8px;
-    color: #67022e; 
-
+    color: #67022e;
 }
+
 /* section 1 ends here */
-
-
 
 /* section 2 starts here */
 
-.section_2{
+.section_2 {
     font-family: 'Montserrat-Light';
 }
-.section_2 .header_coop{
+
+.section_2 .header_coop {
     font-family: 'Montserrat-SemiBold';
 }
-.section_2 .header_coop h1{
+
+.section_2 .header_coop h1 {
     font-size: 45px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -64,57 +78,68 @@ body{
     margin-bottom: 70px;
     font-family: 'Montserrat-Regular';
 }
-.section_2 .header_coop h4{
+
+.section_2 .header_coop h4 {
     font-size: 24px;
-    font-weight: 600;   
+    font-weight: 600;
     margin-top: 85px;
     margin-bottom: 50px;
     letter-spacing: 1px;
 }
-.section_2 .header_coop p{
+
+.section_2 .header_coop p {
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 32px;
 }
-.section_2 .split_section .content_header{
-    font-family: 'Montserrat-SemiBold';    
+
+.section_2 .split_section .content_header {
+    font-family: 'Montserrat-SemiBold';
     font-size: 20px;
     letter-spacing: 1px;
-    color:#e9044a;
+    color: #e9044a;
 }
-.section_2 .split_section .left{
+
+.section_2 .split_section .left {
     float: left;
     padding-right: 55px;
 }
-.section_2 .split_section .right{
+
+.section_2 .split_section .right {
     float: right;
     padding-left: 60px;
 }
-.section_2 .split_section p{
+
+.section_2 .split_section p {
     font-size: 15px;
     letter-spacing: 1px;
 }
+
 .section_2 .split_section .split.left p {
     line-height: 27px;
     margin-bottom: 20px;
 }
-.section_2 .split_section .split.right p{
+
+.section_2 .split_section .split.right p {
     margin-bottom: 0;
     line-height: 27px;
 }
-.section_2 .split_section .split p.content_title{
+
+.section_2 .split_section .split p.content_title {
     margin-top: 55px;
     margin-bottom: 24px;
     font-size: 15px;
     font-family: 'Montserrat-SemiBold';
     letter-spacing: 1px;
 }
-.section_2 .split_section .split.left .flex_div{
+
+.section_2 .split_section .split.left .flex_div {
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
-.section_2 .split_section .split.left .flex_div h1{
+
+.section_2 .split_section .split.left .flex_div h1 {
     font-size: 45px;
     letter-spacing: 1px;
     font-family: 'Montserrat-SemiBold';
@@ -124,27 +149,31 @@ body{
 
 /* section 3 starts here */
 
-.section_3{
+.section_3 {
     margin-top: 125px;
     margin-bottom: 180px;
-
 }
-.section_3 .process_flow{
+
+.section_3 .process_flow {
     display: flex;
     justify-content: space-around;
 }
-.section_3 .process_flow .process_item{
+
+.section_3 .process_flow .process_item {
     text-align: center;
 }
-.section_3 .process_flow .process_item h6{
+
+.section_3 .process_flow .process_item h6 {
     font-size: 12px;
     font-family: 'Montserrat-SemiBold';
     letter-spacing: 1px;
 }
-.section_3 .process_flow .process_item .img_wrap{
+
+.section_3 .process_flow .process_item .img_wrap {
     height: 104px;
 }
-.underline{
+
+.underline {
     text-align: center;
     margin-top: 18px;
 }
@@ -152,34 +181,41 @@ body{
 /* section 3 ends here */
 
 /*Section 3.5 starts here*/
-.slider_container{
+
+.slider_container {
     background: url('../images/cityUsher/myCoopSlideBG.png') 0 100% no-repeat;
     background-size: contain;
 }
-ol.carousel-indicators{
+
+ol.carousel-indicators {
     bottom: auto;
 }
-#item-carousel .carousel-indicators li{
+
+#item-carousel .carousel-indicators li {
     max-width: none;
     width: auto;
     height: auto;
 }
-#item-carousel .carousel-indicators li h3{
+
+#item-carousel .carousel-indicators li h3 {
     font-size: 19px;
     font-family: 'Montserrat-Light';
     letter-spacing: 1px;
     color: #000;
 }
-#item-carousel .carousel-indicators li.seperator{
+
+#item-carousel .carousel-indicators li.seperator {
     cursor: default;
     height: auto;
     margin-top: -6px;
     font-size: 20px;
 }
-#item-carousel .carousel-indicators li.active h3{
+
+#item-carousel .carousel-indicators li.active h3 {
     font-family: 'Montserrat-SemiBold';
 }
-.slider_container #item-carousel .carousel-inner table{
+
+.slider_container #item-carousel .carousel-inner table {
     background: #fff;
     width: 986px;
     margin: 0 auto;
@@ -187,18 +223,21 @@ ol.carousel-indicators{
     box-shadow: 0 0 20px #e9e9e9;
     margin-bottom: 209px;
 }
-.slider_container #item-carousel .carousel-inner{
+
+.slider_container #item-carousel .carousel-inner {
     margin-top: 109px;
     padding: 5px;
 }
+
 .slider_container #item-carousel .carousel-inner th:first-child,
-.slider_container #item-carousel .carousel-inner td:first-child{
+.slider_container #item-carousel .carousel-inner td:first-child {
     background: #d90447;
     color: #fff;
     font-family: 'Montserrat-SemiBold';
     padding-left: 38px;
 }
-.slider_container #item-carousel .carousel-inner td{
+
+.slider_container #item-carousel .carousel-inner td {
     width: 230px;
     height: 75px;
     font-size: 12.5px;
@@ -207,51 +246,64 @@ ol.carousel-indicators{
     padding-left: 66px;
     vertical-align: initial;
 }
-.slider_container #item-carousel .carousel-inner .heading_table{
+
+.slider_container #item-carousel .carousel-inner .heading_table {
     font-size: 12.5px;
     font-family: 'Montserrat-SemiBold';
 }
-.slider_container #item-carousel .carousel-inner .heading_table th:first-child{
+
+.slider_container #item-carousel .carousel-inner .heading_table th:first-child {
     border-top-left-radius: 25px;
 }
-.slider_container #item-carousel .carousel-inner tr:last-child td:first-child{
+
+.slider_container #item-carousel .carousel-inner tr:last-child td:first-child {
     border-bottom-left-radius: 25px;
 }
-.slider_container #item-carousel .carousel-inner .heading_table th{
+
+.slider_container #item-carousel .carousel-inner .heading_table th {
     padding-left: 66px;
     padding-top: 60px;
     padding-bottom: 54px;
 }
-.slider_container #item-carousel .carousel-inner tr:last-child{
+
+.slider_container #item-carousel .carousel-inner tr:last-child {
     height: 120px;
 }
-.header_slide{
+
+.header_slide {
     margin-bottom: 25px;
     font-size: 45px;
     font-family: 'Montserrat-SemiBold';
 }
+
 /*Section 3.5 ends here*/
 
 /* section 4 starts here */
-.section_4{
+
+.section_4 {
     text-align: center;
     font-family: 'Montserrat-Regular';
     letter-spacing: 1px;
     margin-bottom: 150px;
+    margin-top: 60px;
 }
-.section_4 .margin_bottom{
-    margin-bottom: 125px;   
+
+.section_4 .margin_bottom {
+    margin-bottom: 125px;
 }
-.section_4 h1{
+
+.section_4 h1 {
     font-size: 50px;
     font-family: 'Montserrat-SemiBold';
     margin-bottom: 30px;
 }
-.section_4 h5{
+
+.section_4 h5 {
     font-size: 16px;
     margin-bottom: 25px;
 }
-.section_4 p{
+
+.section_4 p {
     font-size: 16px;
     line-height: 30px;
 }
@@ -259,58 +311,78 @@ ol.carousel-indicators{
 /* section 4 ends here */
 
 /* section 5 starts here */
-.section_5 .container{
-    margin-bottom: 140px;
+.section_5{
+    overflow-x: hidden;
+}
+.section_5 .container {
+    margin-bottom: 80px;
     position: relative;
-}
-.section_5 .container.user_1,
-.section_5 .container.user_3{
-    padding-right: 180px;
-}
-.section_5 .container.user_2{
-    padding-left: 180px;
+
 }
 
-.section_5 .persona{
-    font-family: 'Montserrat-Light';    
+.section_5 .whole_wrap .col-md-10 {
+    padding: 40px 45px 60px 45px;
+    box-shadow: 0 0 15px #f3f0f0;
+}
+
+.section_5 .whole_wrap .bg_text {
+    font-family: 'Montserrat-SemiBold';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #f2f2f2;
+    font-size: 8.4rem;
+}
+
+.section_5 .persona {
+    font-family: 'Montserrat-Light';
     letter-spacing: 1px;
 }
-.section_5 .persona h4{
-    font-family: 'Montserrat-SemiBold';        
+
+.section_5 .persona h4 {
+    font-family: 'Montserrat-SemiBold';
 }
-.section_5 .persona p{
+
+.section_5 .persona p {
     font-size: 12px;
-    font-family:'Montserrat-Regular';
+    font-family: 'Montserrat-Regular';
     margin-bottom: 16px;
 }
-.section_5 .persona p:last-child{
+
+.section_5 .persona p:last-child {
     line-height: 22px;
 }
-.section_5 .bio_detail{
+
+.section_5 .bio_detail {
     font-family: 'Montserrat-Light';
     flex-wrap: nowrap;
-    margin-top: 15px;    
+    margin-top: 15px;
     letter-spacing: 1px;
 }
+
 .section_5 .bio_detail .demograph h5 {
-    font-family: 'Montserrat-SemiBold';    
+    font-family: 'Montserrat-SemiBold';
     font-size: 11px;
     margin-bottom: 18px;
     margin-top: 15px;
 }
-.section_5 .bio_detail .demograph p span{
-    font-family: 'Montserrat-SemiBold';    
+
+.section_5 .bio_detail .demograph p span {
+    font-family: 'Montserrat-SemiBold';
     font-size: 11px;
 }
-.section_5 .bio_detail div{
+
+.section_5 .bio_detail div {
     padding: 0 15px;
 }
+
 .section_5 .bio_detail .demograph p {
     font-size: 11px;
     margin-bottom: 0;
     line-height: 26px;
 }
-.section_5 .bio_detail .count{
+
+.section_5 .bio_detail .count {
     background: #e9044a;
     width: 18px;
     height: 18px;
@@ -321,29 +393,34 @@ ol.carousel-indicators{
     margin-right: 8px;
     padding-top: 1px;
 }
-.section_5 .bio_detail h4.title{
+
+.section_5 .bio_detail h4.title {
     font-size: 20px;
-    font-family:'Montserrat-Regular'; 
+    font-family: 'Montserrat-Regular';
     line-height: 28px;
     margin-bottom: 30px;
 }
+
 .section_5 .bio_detail .toKnow p,
-.section_5 .bio_detail .toDo p{
-    font-size: 11px;    
+.section_5 .bio_detail .toDo p {
+    font-size: 11px;
     display: flex;
     margin-bottom: 30px;
-    font-family:'Montserrat-Regular';    
+    font-family: 'Montserrat-Regular';
 }
-.section_5  img.first{
+
+.section_5 img.first {
     position: absolute;
     top: 60px;
-    left: -185px;
+    left: -140px;
 }
-.section_5 img.two{
-    position: absolute;    
+
+.section_5 img.two {
+    position: absolute;
     top: 30px;
     right: -400px;
 }
+
 /* section 5 ends here */
 
 /* section 6 starts here */
@@ -351,41 +428,56 @@ ol.carousel-indicators{
 /* section 6 ends here */
 
 /* section 7 starts here */
+
 .userFlow {
     font-family: 'Montserrat-SemiBold';
     letter-spacing: 1px;
 }
-.userFlow h1{
+
+.userFlow h1 {
     font-size: 36px;
     margin-bottom: 15px;
 }
-.userFlow p{
+
+.userFlow p {
     font-size: 18px;
     line-height: 28px;
 }
+
 .userFlow .flow img {
     margin-top: -60px;
 }
-.userFlow .wireFrames{
+
+.userFlow .wireFrames {
     margin-top: 100px;
 }
-.userFlow .wireFrames ul{
+
+.userFlow .wireFrames ul {
     padding-left: 0;
 }
-.userFlow .wireFrames ul li{
+
+.userFlow .wireFrames ul li {
     float: left;
     list-style: none;
     text-align: center;
     margin-left: 18px;
 }
-.userFlow .wireFrames ul li p{
+
+.userFlow .wireFrames ul li p {
     font-family: 'Montserrat-Light';
     font-size: 14px;
 }
-.userFlow .wireFrames img{
+
+.userFlow .wireFrames img {
     margin-top: 55px;
     margin-bottom: 60px;
 }
+
 /* section 7 ends here */
 
 
+@media only screen and (max-width:1200px){
+    .slider_container #item-carousel .carousel-inner table{
+        width: auto;
+    }
+}

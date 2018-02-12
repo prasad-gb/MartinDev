@@ -68,6 +68,12 @@ body {
 .strong {
     font-family: 'Montserrat-Regular';
 }
+.top_banner .navbar {
+    margin: 0 -15px;
+    position: absolute;
+    width: 100%;
+    box-shadow: none;
+}
 
 .header {
     margin: 0 auto;
