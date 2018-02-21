@@ -32,6 +32,26 @@ body {
     font-family: 'GlacialIndifference-Regular';
     overflow-x: hidden;
 }
+
+/*Canvas design*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#particle-canvas {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+}
+#particle-canvas div{
+    background: none !important;
+}
+/*Canvas design*/
+
 .no_padding{
     padding: 0;
 }
@@ -112,6 +132,7 @@ body {
     border-radius: 50%;
     transform: translateX(-50%);
     overflow: hidden;
+    z-index: 99;
 }
 .overlay_image{
     position: absolute;
