@@ -68,6 +68,9 @@ body {
     position: relative;
 }
 
+.banner_inner{
+    z-index: 99;
+}
 .top_banner.full_bg {
     min-height: 100vh;
     min-width: 100vw;
@@ -75,6 +78,9 @@ body {
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 100px;
+}
+.top_banner .navbar{
+    z-index: 99;
 }
 
 .no_padding {
@@ -323,4 +329,36 @@ ol.carousel-indicators li.active {
     width: 18px;
     margin-top: -3px;
     padding-right: 10px;
+}
+@media only screen and (max-width:992px){
+    .carousel_info .info,
+    .carousel_info .carousel_container {
+        max-width: 100%;
+        width: 100%;
+        flex: 100%;
+    }
+    .carousel_info .info{
+        order: 1;
+    }
+}
+@media only screen and (max-width:767px){
+    .header {
+        transform: none;
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .social_icons_wrap{
+        width: min-content;
+        float: right;
+    }
+    .header h1{
+        font-size: 60px;
+    }
+    .header h4{
+        font-size: 24px;
+    }
+    .vertical_social,
+    .vertical_text {
+        display: none;
+    }
 }
