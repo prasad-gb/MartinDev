@@ -138,7 +138,7 @@ body {
     border-radius: 50%;
     transform: translateX(-50%);
     overflow: hidden;
-    z-index: 99;
+    z-index: 20;
 }
 .overlay_image{
     position: absolute;
