@@ -77,6 +77,7 @@ body {
     margin-top: 60px;
     margin-bottom: 70px;
     font-family: 'Montserrat-Regular';
+    text-align: left;
 }
 
 .section_2 .header_coop h4 {
@@ -98,6 +99,7 @@ body {
     font-size: 20px;
     letter-spacing: 1px;
     color: #e9044a;
+    text-align: left;
 }
 
 .section_2 .split_section .left {
@@ -185,6 +187,9 @@ body {
 .slider_container {
     background: url('../images/cityUsher/myCoopSlideBG.png') 0 100% no-repeat;
     background-size: contain;
+}
+.header_slide h1{
+    font-size: 2.5rem;
 }
 
 ol.carousel-indicators {
@@ -439,7 +444,10 @@ ol.carousel-indicators {
 /* section 5 ends here */
 
 /* section 6 starts here */
-
+.think_feel img{
+    max-width: 100%;
+    margin-bottom: 100px;
+}
 /* section 6 ends here */
 
 /* section 7 starts here */

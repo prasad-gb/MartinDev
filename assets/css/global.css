@@ -27,7 +27,10 @@
     font-family: 'GlacialIndifference-Bold';
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
-
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('fonts/BebasNeueBold.otf');
+}
 body {
     font-family: 'GlacialIndifference-Regular';
     overflow-x: hidden;

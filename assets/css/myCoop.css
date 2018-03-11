@@ -1,0 +1,420 @@
+.pos_rel{
+    position: relative;
+}
+/* section 1 stars here */
+
+.topBanner .navbar {
+    margin: 0 -15px;
+    background-color: #e9044a;
+    position: absolute;
+    width: 100%;
+    box-shadow: none;
+}
+
+.topBanner {
+    background: url('../images/myCoop/topBanner.png') 0 0;
+}
+
+.topBanner .container {
+    min-height: 791px;
+    color: #fff;
+    font-family: 'GlacialIndifference-Regular';
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.topBanner .container h1 {
+    font-family: 'GlacialIndifference-Bold';
+    font-size: 75px;
+    padding-top: 160px;
+    margin-bottom: 15px;
+}
+
+.topBanner .container h5 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.topBanner .container ul {
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.topBanner .container ul li {
+    float: left;
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.topBanner .container ul li a {
+    color: #67022e;
+    text-decoration: none;
+}
+
+.topBanner .container ul li.seperator {
+    margin: 0 8px;
+    color: #67022e;
+}
+.outer-menu .hamburger{
+    background:#17995e;
+}
+.outer-menu .menu>div{
+    background:#117d4c;
+}
+/* section 1 ends here */
+
+/* section 2 starts here */
+
+.section_2 {
+    font-family: 'Montserrat-Light';
+}
+
+.section_2 .header_coop {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.section_2 .header_coop h1 {
+    text-align: left;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    font-family: 'Montserrat-Regular';
+}
+
+.section_2 .header_coop h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.section_2 .header_coop p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.section_2 .split_section .content_header {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #054a91;
+    text-align: left;
+}
+.section_2 .split_section .content_header.second{
+    margin-top: 40px;
+    margin-bottom:32px;
+}
+
+.section_2 .split_section .left {
+    float: left;
+    padding-right: 55px;
+}
+
+.section_2 .split_section .right {
+    float: right;
+    padding-left: 60px;
+}
+
+.section_2 .split_section p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section_2 .split_section .split.left p {
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.section_2 .split_section .split.right p {
+    margin-bottom: 0;
+    line-height: 27px;
+}
+
+.section_2 .split_section .split p.content_title {
+    margin-top: 55px;
+    margin-bottom: 24px;
+    font-size: 15px;
+    font-family: 'Montserrat-SemiBold';
+    letter-spacing: 1px;
+}
+
+.section_2 .split_section .split.left .flex_div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section_2 .split_section .split.left .flex_div h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat-SemiBold';
+}
+.split_section .bottom h1 {
+    font-size:24px;
+    font-family: 'Montserrat-SemiBold';
+    line-height: 38px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.section_2 .split_section .split.left.bottom p {
+    margin-bottom: 0;
+}
+.section_2 .split_section .split.left.bottom p.content_title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.section_2 .split_section .innerSec{
+    margin-top: 50px;
+}
+.section_2 .split_section .left.innerSec{
+    padding-right: 0;
+    padding-left: 55px;
+}
+.section_2 .split_section .right.cusImg img{
+    max-width: 100%;
+}
+/* section 2 ends here */
+
+/* section 3 starts here */
+.section_3{
+    margin-top: 130px;
+}
+.section_3 img{
+    max-width:100%;
+}
+/* section 3 ends here */
+
+/* section 4 starts here */
+.nextdoor{
+    font-family: 'Montserrat-Light';
+    font-size: 13px;   
+    letter-spacing: 1px; 
+}
+.nextdoor.title{
+    margin-bottom: 150px;
+}
+.nextdoor h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.nextdoor.title h2 {
+    margin-top: 100px;
+}
+.nextdoor img.logo{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.nextdoor a{
+    font-family: 'Montserrat-Regular';
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.nextdoor .card{
+    border: 0px;
+    box-shadow: 0 0 15px #e9e9e9;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+.section_4 .card-title {
+    font-family: 'Montserrat-Light';
+    font-size: 24px;
+}
+.section_4 .card-text small{
+    font-family: 'Montserrat-Light';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.section_4 .card-text small img{
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+.section_4 .green{
+    color:#17995e;
+}
+.section_4 .card-text small span{
+    color:#17995e;
+}
+.section_4 .card-text .boldCount{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 24px;
+    color: #000;
+    margin-left: 30px;
+}
+/* section 4 ends here */
+
+/* section 5 starts here */
+.section_5{
+    background: url('../images/mycoop/midsection1.png') center no-repeat;
+    background-size: cover;
+    color: #fff;
+    letter-spacing: 1px;   
+}
+.section_5 .content{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.section_5 h1{
+    font-family: 'BebasNeueBold';
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+.section_5 p{
+    font-family: 'Montserrat-Light';
+    font-size: 14px;
+    line-height: 24px;
+}
+/* section 5 ends here */
+
+/* section 6 starts here */
+
+.section_6 {
+    overflow-x: hidden;
+}
+
+.section_6 .container {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.section_6 .whole_wrap .col-md-10 {
+    padding: 40px 45px 60px 45px;
+    box-shadow: 0 0 15px #f3f0f0;
+}
+
+.section_6 .whole_wrap .bg_text {
+    font-family: 'Montserrat-SemiBold';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #f2f2f2;
+    font-size: 8.4rem;
+}
+
+.section_6 .persona {
+    font-family: 'Montserrat-Light';
+    letter-spacing: 1px;
+}
+
+.section_6 .persona h4 {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.section_6 .persona p {
+    font-size: 12px;
+    font-family: 'Montserrat-Regular';
+    margin-bottom: 16px;
+}
+
+.section_6 .persona p:last-child {
+    line-height: 22px;
+}
+
+.section_6 .bio_detail {
+    font-family: 'Montserrat-Light';
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.section_6 .bio_detail .demograph h5 {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+
+.section_6 .bio_detail .demograph p span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+}
+
+.section_6 .bio_detail div {
+    padding: 0 15px;
+}
+
+.section_6 .bio_detail .demograph p {
+    font-size: 11px;
+    margin-bottom: 0;
+    line-height: 26px;
+}
+
+.section_6 .bio_detail .count {
+    background: #e9044a;
+    width: 18px;
+    height: 18px;
+    display: inline-table;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+    padding-top: 1px;
+}
+
+.section_6 .bio_detail h4.title {
+    font-size: 20px;
+    font-family: 'Montserrat-Regular';
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.section_6 .bio_detail .toKnow p,
+.section_6 .bio_detail .toDo p {
+    font-size: 11px;
+    display: flex;
+    margin-bottom: 30px;
+    font-family: 'Montserrat-Regular';
+}
+
+.section_6 img.first {
+    position: absolute;
+    top: 60px;
+    left: -140px;
+}
+
+.section_6 img.two {
+    position: absolute;
+    top: 30px;
+    right: -400px;
+}
+.section_6 .bg_text{
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 45px;
+    margin-top: 120px;
+    letter-spacing: 1px;    
+}
+.section_6 .topHead {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+/* section 6 ends here */
+
+/* section 7 starts here */
+.section_7 .head {
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+}
+.section_7 .headpara{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat-Regular';        
+}
+
+/* section 7 ends here */
