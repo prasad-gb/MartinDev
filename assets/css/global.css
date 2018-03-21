@@ -35,7 +35,9 @@ body {
     font-family: 'GlacialIndifference-Regular';
     overflow-x: hidden;
 }
-
+.svg_icon{
+    width: 32px;
+}
 /*Canvas design*/
 html,
 body {

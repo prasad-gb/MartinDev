@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/menu.css">    
+    <link rel="stylesheet" href="assets/css/menuStyle.css">    
     <script src="assets/css/js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="assets/css/js/mdb.min.js"></script>    
@@ -20,14 +20,11 @@
 
 <body class="no_animation">
     <div id="particle-canvas"></div>
-    <div class="container-fluid top_banner full_bg">
-        
+    <div class="container-fluid top_banner full_bg">        
         <div class="container pos_rel banner_inner">
-            <div class="outer-menu">
+            <!-- <div class="outer-menu">
                 <input class="checkbox-toggle" type="checkbox" />
-                <div class="hamburger">
-                    <div></div>
-                </div>
+                
                 <div class="menu">
                     <div>
                         <div>
@@ -45,7 +42,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <div class="hamburger">
+                    <div><img src="assets/images/cityUsher/menu.svg" alt="" class="svg_icon"></div>
+                </div>
+            <div class="l-menu js-menu" style="display: block;">
+    <div class="container js-menuContainer"><a class="btn_close js-menuCloseBtn"><span class="icon"><img src="assets/images/cityUsher/close.svg" alt="" class="svg_icon"></span></a>
+        <ul class="categories">
+            <li><a href="" class="is-active js-tagDefault"><span class="text">About</span></a></li>
+            <li><a href="" class="js-tag"><span class="text">Process</span></a></li>
+            <li><a href="" class="js-tag"><span class="text">Content</span></a></li>
+    </div>
+</div>
             <div class="row">
                 <div class="col-md-1 col-sm-1 col-xs-6 vertical_text">
                     <p>
