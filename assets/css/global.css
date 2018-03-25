@@ -27,24 +27,28 @@
     font-family: 'GlacialIndifference-Bold';
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
+
 @font-face {
     font-family: 'BebasNeueBold';
     src: url('fonts/BebasNeueBold.otf');
+}
+@font-face {
+    font-family: 'Campton-LightDEMO';
+    src: url('fonts/Campton-LightDEMO.otf');
 }
 body {
     font-family: 'GlacialIndifference-Regular';
     overflow-x: hidden;
 }
-.svg_icon{
-    width: 32px;
-}
+
 /*Canvas design*/
+
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #particle-canvas {
@@ -52,39 +56,53 @@ body {
     width: 100%;
     height: 100%;
 }
-#particle-canvas div{
+
+#particle-canvas div {
     background: none !important;
 }
+
 /*Canvas design*/
 
-.no_padding{
+.no_padding {
     padding: 0;
 }
-.no_margin{
+
+.no_margin {
     margin: 0;
 }
-.no_animation *{
+
+.no_animation * {
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
     -o-transition: none !important;
 }
+
 .pos_rel {
     position: relative;
 }
 
-.banner_inner{
+.banner_inner {
     z-index: 99;
 }
+
 .top_banner.full_bg {
     min-height: 100vh;
     min-width: 100vw;
-    background: url('../images/bg.png') center no-repeat;
+    /* background: url('../images/bg.png') center no-repeat; */
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 100px;
+    color: #fff;
 }
-.top_banner .navbar{
+#bgVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.top_banner .navbar {
     z-index: 99;
 }
 
@@ -96,9 +114,41 @@ body {
     display: block;
 }
 
+.topMenu.active {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+}
+
+.topMenu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    height: 60px;
+    padding-top: 50px;
+}
+.topMenu.active ul{
+    padding-top: 0;
+}
+.topMenu ul li {
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 24px;
+}
+
+.topMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .strong {
     font-family: 'Montserrat-Regular';
 }
+
 .top_banner .navbar {
     margin: 0 -15px;
     position: absolute;
@@ -108,7 +158,6 @@ body {
 
 .header {
     margin: 0 auto;
-    color: #333;
     position: absolute;
     max-width: 500px;
     padding-left: 90px;
@@ -123,17 +172,11 @@ body {
     letter-spacing: 1px;
     font-family: 'GlacialIndifference-Regular';
     line-height: 40px;
-    color: #333
-}
-
-.header h4 .strong {
-    color: #444;
 }
 
 .header h1 {
     font-size: 80px;
     font-family: 'GlacialIndifference-Regular';
-    color: #444;
 }
 
 .top_banner .my_pic {
@@ -145,24 +188,29 @@ body {
     overflow: hidden;
     z-index: 20;
 }
-.overlay_image{
+
+.overlay_image {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 90px;
     margin-left: auto;
     margin-right: auto;
-    transition: all 0.4s ease-out 0.35s;  
+    transition: all 0.4s ease-out 0.35s;
 }
-.underlay_image{
+
+.underlay_image {
     transition: all 0.3s ease-in;
 }
-.no_animation .overlay_image{
+
+.no_animation .overlay_image {
     transform: translateY(100%);
 }
-.no_animation .underlay_image{
+
+.no_animation .underlay_image {
     transform: scale(0)
 }
+
 .vertical_text {
     writing-mode: tb;
     transform: rotate(180deg);
@@ -222,7 +270,9 @@ body {
 #item-carousel {
     padding-top: 25px;
 }
-
+.carousel-item img{
+    cursor: pointer;
+}
 .carousel-item .wrap {
     display: flex;
 }
@@ -263,7 +313,8 @@ body {
     text-decoration: none;
 }
 
-#item-carousel .carousel-indicators li {
+#item-carousel .carousel-indicators li,
+#item-carousel1 .carousel-indicators li {
     text-indent: 0;
     cursor: pointer;
     margin-right: 15px;
@@ -278,6 +329,10 @@ ol.carousel-indicators {
     width: auto;
 }
 
+#item-carousel1 ol.carousel-indicators {
+    bottom: 0;
+}
+
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
     float: left;
@@ -288,26 +343,30 @@ ol.carousel-indicators li.active {
     background: transparent;
 }
 
-#item-carousel .carousel-indicators img {
+#item-carousel .carousel-indicators img,
+#item-carousel1 .carousel-indicators img {
     width: 13px;
     cursor: pointer;
 }
 
-#item-carousel .carousel-indicators li img:nth-child(2) {
+#item-carousel .carousel-indicators li img:nth-child(2),
+#item-carousel1 .carousel-indicators li img:nth-child(2) {
     /* display: none; */
     position: absolute;
-    top:7px;
+    top: 7px;
     opacity: 0;
     transition: opacity 0.5s;
 }
 
-#item-carousel .carousel-indicators li.active>img:first-child {
+#item-carousel .carousel-indicators li.active>img:first-child,
+#item-carousel1 .carousel-indicators li.active>img:first-child {
     /* display: none; */
     opacity: 0;
     transition: opacity 0.5s;
 }
 
-#item-carousel .carousel-indicators li.active img:nth-child(2) {
+#item-carousel .carousel-indicators li.active img:nth-child(2),
+#item-carousel1 .carousel-indicators li.active img:nth-child(2) {
     /* display: initial; */
     opacity: initial;
     transition: opacity 0.5s;
@@ -335,31 +394,138 @@ ol.carousel-indicators li.active {
     margin-top: -3px;
     padding-right: 10px;
 }
-@media only screen and (max-width:992px){
+/* Process section starts here */
+.processHome h1{
+    font-size: 45px;
+    font-family:'GlacialIndifference-Bold';
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-bottom: 18px;
+}
+.processHome p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.processHome img{
+    width: 94%;
+    margin-bottom: 45px;
+}
+.processHome .listContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.processHome ul {
+    padding: 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.processHome li{
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.processHome li.head{
+    font-size: 15px;
+    font-family: 'Montserrat-Bold';
+    margin-bottom: 22px;
+}
+.processHome .apps {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+/* Process section ends here */
+
+/* About section starts head */
+.myself{
+    margin-bottom: 170px;
+}
+.myself h1 {
+    font-size: 45px;
+    font-family: 'GlacialIndifference-Bold';
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.myself p {
+    font-size: 20px;
+    font-family: 'Montserrat-Light';
+    letter-spacing: 1px;
+    line-height: 36px;
+}
+/* About Section ends here */
+
+/* Contact me form starts here */
+.contactMe{
+    padding: 70px 0;
+    background:linear-gradient(to right, #2e1855, #580844);
+    color: #fff;
+}
+.contactMe h1{
+    font-size: 45px;
+    font-family: 'GlacialIndifference-Bold';
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.contactMe p{
+    font-size: 21px;
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Campton-LightDEMO';
+    letter-spacing: 1px;
+    line-height: 36px;
+}
+.contactMe p a{
+    text-decoration: underline;
+}
+.contactMe button{
+    font-family: 'Montserrat-Regular';
+    letter-spacing: 1px;
+    font-size: 24px;
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #fff;
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 85px;
+    border-radius: 10px;
+    margin-top: 55px;
+    
+}
+/* Contact me form ends here */
+
+@media only screen and (max-width:992px) {
     .carousel_info .info,
     .carousel_info .carousel_container {
         max-width: 100%;
         width: 100%;
         flex: 100%;
     }
-    .carousel_info .info{
+    .carousel_info .info {
         order: 1;
     }
 }
-@media only screen and (max-width:767px){
+
+@media only screen and (max-width:767px) {
     .header {
         transform: none;
         padding-left: 0;
         margin-top: 50px;
     }
-    .social_icons_wrap{
+    .social_icons_wrap {
         width: min-content;
         float: right;
     }
-    .header h1{
+    .header h1 {
         font-size: 60px;
     }
-    .header h4{
+    .header h4 {
         font-size: 24px;
     }
     .vertical_social,

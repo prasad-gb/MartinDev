@@ -8,6 +8,16 @@ $(document).ready(function() {
     $('.btn_close').click(function(){
     	$('.l-menu').removeClass('is-active');
     })
+    $(window).on('ready scroll',function(){
+        if(($(window).scrollTop()) > 36){
+            $('.topMenu').addClass('active');
+            console.log('comes into if')
+        }
+        else{
+            $('.topMenu').removeClass('active');  
+            console.log('comes into else')                      
+        }
+    })
   });
 
 $(function() {
