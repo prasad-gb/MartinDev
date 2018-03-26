@@ -22,7 +22,9 @@
     text-align: center;
     letter-spacing: 1px;
 }
-
+.topBanner .topMenu .container {
+    min-height: 0;
+}
 .topBanner .container h1 {
     font-family: 'GlacialIndifference-Bold';
     font-size: 75px;

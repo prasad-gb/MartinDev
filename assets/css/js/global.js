@@ -8,8 +8,8 @@ $(document).ready(function() {
     $('.btn_close').click(function(){
     	$('.l-menu').removeClass('is-active');
     })
-    $(window).on('ready scroll',function(){
-        if(($(window).scrollTop()) > 36){
+    $(document).on('ready scroll',function(){
+        if(($(document).scrollTop()) > 36){
             $('.topMenu').addClass('active');
             console.log('comes into if')
         }
@@ -17,6 +17,14 @@ $(document).ready(function() {
             $('.topMenu').removeClass('active');  
             console.log('comes into else')                      
         }
+    })
+    $('.toggler li:first-child').click(function(){
+        $('.toggleImg img').removeClass('active');
+        $('.toggleImg img:first-child').addClass('active');
+    })
+    $('.toggler li:nth-child(2)').click(function () {
+        $('.toggleImg img').removeClass('active');
+        $('.toggleImg img:nth-child(2)').addClass('active');
     })
   });
 

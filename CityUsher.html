@@ -24,28 +24,12 @@
 <body>
     <!-- Section 1 starts here -->    
     <div class="container-fluid topBanner section_1">
-        <div class="outer-menu">
-            <input class="checkbox-toggle" type="checkbox" />
-            <div class="hamburger">
-                <div></div>
-            </div>
-            <div class="menu">
-                <div>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Process</a>
-                            </li>
-                            <li>
-                                <a href="#">Content</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="topMenu">
+                <ul class="container">
+                    <li><a href="javascript:void(0)">Home</a></li>   
+                    <li><a href="javascript:void(0)">About</a></li>
+                    <li  onclick="scroll_to_div(portfolio)"><a href="javascript:void(0)">Portfolio</a></li>                                               
+                </ul>
         </div>
         <div class="container">
             <h1>City Usher</h1>
@@ -645,18 +629,19 @@
             </div>
             <div class="col-md-5 col-sm-5 col-xs-5"></div>
             <div class="col-md-3 col-sm-4 col-xs-6">
-                <ul class="clearfix">
+                <ul class="clearfix toggler">
                     <li>
-<img src="assets/images/cityUsher/toggleDesktop.png" alt="" class="img-fluid">
+                            <img src="assets/images/cityUsher/toggleDesktop.png" alt="" class="img-fluid">
                         <p class="caption">DESKTOP</p>
                     </li>
                     <li>
-<img src="assets/images/cityUsher/toggleMobile.png" alt="" class="img-fluid">
+                        <img src="assets/images/cityUsher/toggleMobile.png" alt="" class="img-fluid">
                         <p class="caption">MOBILE</p>
                     </li>
                 </ul>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12 toggleImg">
+                <img src="assets/images/cityUsher/deskWire.png" alt="" class="img-fluid active">                
                 <img src="assets/images/cityUsher/mobilleWireFrame.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -682,10 +667,23 @@
 
             </div>
         </div>
-
+    
     </div>
     <!-- section 7 ends here -->
 
+    <!-- Section 8 starts here -->
+    <div class="contactMe">
+        <div class="container">
+            <h1 class="text-center">Let's work together</h1>
+            <p>I’m always open to new opportunities (full-time, freelance and contract).</p>
+            <p>Email me at
+                <a href="mailto:martinharrison27@gmail.com">martinharrison27@gmail.com</a> if you’re interested in working together.</p>
+            <button class="btn" type="submit">
+                <a href="mailto:martinharrison27@gmail.com">Contact Me</a>
+            </button>
+        </div>
+    </div>
+    <!-- Section 8 ends here -->
 
 </body>
 
